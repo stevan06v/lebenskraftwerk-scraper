@@ -133,6 +133,20 @@ files = [
 pycparser = {version = "*", markers = "implementation_name != \"PyPy\""}
 
 [[package]]
+name = "cfscrape"
+version = "2.1.1"
+description = "A simple Python module to bypass Cloudflare's anti-bot page. See https://github.com/Anorov/cloudflare-scrape for more information."
+optional = false
+python-versions = "*"
+files = [
+    {file = "cfscrape-2.1.1-py3-none-any.whl", hash = "sha256:c62085b42822e196907196f6a09561ec6b2aea8bd87e5a6f84d382e60dd23fe4"},
+    {file = "cfscrape-2.1.1.tar.gz", hash = "sha256:7c5ef94554e0d6ee7de7cd0d42051526e716ce6c0357679ee0b82c49e189e2ef"},
+]
+
+[package.dependencies]
+requests = ">=2.6.1"
+
+[[package]]
 name = "charset-normalizer"
 version = "3.4.3"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
@@ -885,6 +899,36 @@ w3lib = ">=1.17.0"
 zope-interface = ">=5.1.0"
 
 [[package]]
+name = "scrapy-cloudflare-middleware"
+version = "0.0.1"
+description = "A Scrapy Middleware to bypass the CloudFlare's anti-bot protection"
+optional = false
+python-versions = "*"
+files = [
+    {file = "scrapy_cloudflare_middleware-0.0.1-py3-none-any.whl", hash = "sha256:a288e419a6080361beec49093f6f4107cb43ddb252898dbc24ad8ce2941a21a1"},
+    {file = "scrapy_cloudflare_middleware-0.0.1.tar.gz", hash = "sha256:c2157224c6e5df0ec8f572031f822ef696fbf4e06e45f78841bfd74ebdf58d58"},
+]
+
+[package.dependencies]
+cfscrape = ">=1.9.4"
+Scrapy = ">=1.0"
+
+[[package]]
+name = "scrapy-playwright"
+version = "0.0.44"
+description = "Playwright integration for Scrapy"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "scrapy_playwright-0.0.44-py3-none-any.whl", hash = "sha256:ac030c6ccf9b6f20c899795b48d5552bad3a25772f5a5441759fde99a127da00"},
+    {file = "scrapy_playwright-0.0.44.tar.gz", hash = "sha256:e2200610d5619cc08c747484810efc55bc88de00324e2ccf5a1f74942295243e"},
+]
+
+[package.dependencies]
+playwright = ">=1.15"
+scrapy = ">=2.0,<2.4.0 || >2.4.0"
+
+[[package]]
 name = "service-identity"
 version = "24.2.0"
 description = "Service identity verification for pyOpenSSL & cryptography."
@@ -1072,4 +1116,4 @@ testing = ["coverage[toml]", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "ab7578aee0b85a1b8fb6546dc97cf6a3e2f5ddd2a233a9bf25072e9e0584ce5b"
+content-hash = "5b71962e107291128a80194f5086d3a23299f6846ce777fafccac5b6094f9d10"

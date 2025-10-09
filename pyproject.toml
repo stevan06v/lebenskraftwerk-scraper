@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.12"
 scrapy = "^2.13.3"
 playwright = "^1.55.0"
+scrapy-playwright = "^0.0.44"
+scrapy-cloudflare-middleware = "^0.0.1"
 
 
 [build-system]

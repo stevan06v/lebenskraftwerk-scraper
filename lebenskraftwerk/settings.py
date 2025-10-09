@@ -6,18 +6,35 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+from lebenskraftwerk import helpers
 
 BOT_NAME = "lebenskraftwerk"
 
 SPIDER_MODULES = ["lebenskraftwerk.spiders"]
 NEWSPIDER_MODULE = "lebenskraftwerk.spiders"
 
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "lebenskraftwerk (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
+
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+
+REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
+PLAYWRIGHT_BROWSER_TYPE = "chromium"
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
+
+PLAYWRIGHT_LAUNCH_OPTIONS = {
+    'headless': True,
+    'args': ['--no-sandbox', '--disable-setuid-sandbox', '--disable-features=IsolateOrigins,site-per-process']
+}
+
+ROTATING_PROXY_LIST = helpers.fetch_and_parse_proxies(
+    'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt')
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -50,9 +67,10 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    "lebenskraftwerk.middlewares.LebenskraftwerkDownloaderMiddleware": 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    # "lebenskraftwerk.middlewares.LebenskraftwerkDownloaderMiddleware": 543,
+    "scrapy_cloudflare_middleware.middlewares.CloudFlareMiddleware": 560,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
