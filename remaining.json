@@ -1,26 +1,5 @@
 [
   {
-    "module_title": "Herzlich Willkommen. Starte zuerst hier.",
-    "lesson_id": "18535225",
-    "lesson_name": "Herzlich Willkommen",
-    "video_url": "https://player.vimeo.com/video/534946405",
-    "video_title": "Herzlich Willkommen"
-  },
-  {
-    "module_title": "Modul 1 HERZ-Code - Entfessele deine Umsetzungs-Kraft",
-    "lesson_id": "18535998",
-    "lesson_name": "Deine Quelle - So setzt du deine 4 Sehnsüchte praktisch um",
-    "video_url": "https://player.vimeo.com/video/544934244",
-    "video_title": "Deine Quelle - So setzt du deine 4 Sehnsüchte praktisch um"
-  },
-  {
-    "module_title": "Modul 1 HERZ-Code - Entfessele deine Umsetzungs-Kraft",
-    "lesson_id": "18535999",
-    "lesson_name": "Dein Schemmel – Deine Sehnsüchte zeigen dir deinen Ausweg aus Schieflagen",
-    "video_url": "https://player.vimeo.com/video/551422025",
-    "video_title": "Dein Schemmel – Deine Sehnsüchte zeigen dir deinen Ausweg aus Schieflagen"
-  },
-  {
     "module_title": "Live Calls",
     "lesson_id": "18727641",
     "lesson_name": "Dienstag, 16.07.2024",
@@ -134,31 +113,10 @@
   },
   {
     "module_title": "Live Calls",
-    "lesson_id": "18927406",
-    "lesson_name": "Dienstag, 03.12.2024",
-    "video_url": "https://player.vimeo.com/video/1035685885",
-    "video_title": "Dienstag , 03.12.2024 /1+2"
-  },
-  {
-    "module_title": "Live Calls",
-    "lesson_id": "18927407",
-    "lesson_name": "Dienstag, 03.12.2024",
-    "video_url": "https://player.vimeo.com/video/1035689398",
-    "video_title": "Dienstag , 03.12.2024 /2"
-  },
-  {
-    "module_title": "Live Calls",
     "lesson_id": "19061707",
     "lesson_name": "Donnerstag, 10.04.2025",
     "video_url": "https://player.vimeo.com/video/1074438145",
     "video_title": "Donnerstag , 10.04.2025"
-  },
-  {
-    "module_title": "Live Calls",
-    "lesson_id": "19098361",
-    "lesson_name": "Dienstag, 13.05.2025",
-    "video_url": "https://player.vimeo.com/video/1083934926",
-    "video_title": "Dienstag , 13.05.2025"
   },
   {
     "module_title": "Verkaufs Calls",
@@ -215,131 +173,5 @@
     "lesson_name": "Verkaufs-Call 07.10.2024",
     "video_url": "https://player.vimeo.com/video/1017234705",
     "video_title": "Verkaufs-Call 07.10.2024"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19034709",
-    "lesson_name": "Verkaufs-Call 17.03.2025",
-    "video_url": "https://player.vimeo.com/video/1066622232",
-    "video_title": "Verkaufs-Call 17.03.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19048361",
-    "lesson_name": "Verkaufs-Call 31.03.2025",
-    "video_url": "https://player.vimeo.com/video/1071076851",
-    "video_title": "Verkaufs-Call 31.03.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19080022",
-    "lesson_name": "Verkaufs-Call 28.04.2025",
-    "video_url": "https://player.vimeo.com/video/1079387599",
-    "video_title": "Verkaufs-Call 28.04.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19089351",
-    "lesson_name": "Verkaufs-Call 05.05.2025",
-    "video_url": "https://player.vimeo.com/video/1081509362",
-    "video_title": "Verkaufs-Call 05.05.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19116349",
-    "lesson_name": "Verkaufs-Call 02.06.2025",
-    "video_url": "https://player.vimeo.com/video/1089806736",
-    "video_title": "Verkaufs-Call 02.06.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19128088",
-    "lesson_name": "Verkaufs-Call 16.06.2025",
-    "video_url": "https://player.vimeo.com/video/1093788849",
-    "video_title": "Verkaufs-Call 16.06.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19134883",
-    "lesson_name": "Verkaufs-Call 23.06.2025",
-    "video_url": "https://player.vimeo.com/video/1095625030",
-    "video_title": "Verkaufs-Call 23.06.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19141427",
-    "lesson_name": "Verkaufs-Call 30.06.2025",
-    "video_url": "https://player.vimeo.com/video/1097576170",
-    "video_title": "Verkaufs-Call 30.06.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19146878",
-    "lesson_name": "Verkaufs-Call 07.07.2025",
-    "video_url": "https://player.vimeo.com/video/1099422168",
-    "video_title": "Verkaufs-Call 07.07.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19153074",
-    "lesson_name": "Verkaufs-Call 14.07.2025",
-    "video_url": "https://player.vimeo.com/video/1101239609",
-    "video_title": "Verkaufs-Call 14.07.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19157978",
-    "lesson_name": "Verkaufs-Call 21.07.2025",
-    "video_url": "https://player.vimeo.com/video/1103163085",
-    "video_title": "Dienstag , 21.07.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19165073",
-    "lesson_name": "Verkaufs-Call 28.07.2025",
-    "video_url": "https://player.vimeo.com/video/1105268764",
-    "video_title": "Montag, 28.07.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19170758",
-    "lesson_name": "Verkaufs-Call 04.08.2025",
-    "video_url": "https://player.vimeo.com/video/1107143027",
-    "video_title": "Dienstag , 04.08.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19178503",
-    "lesson_name": "Verkaufs-Call 11.08.2025",
-    "video_url": "https://player.vimeo.com/video/1109067365",
-    "video_title": "Dienstag , 11.08.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19188736",
-    "lesson_name": "Verkaufs-Call 18.08.2025",
-    "video_url": "https://player.vimeo.com/video/1111014988",
-    "video_title": "Dienstag , 18.08.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19195026",
-    "lesson_name": "Verkaufs-Call 25.08.2025",
-    "video_url": "https://player.vimeo.com/video/1112920572",
-    "video_title": "Dienstag , 25.08.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19201275",
-    "lesson_name": "Verkaufs-Call 03.09.2025",
-    "video_url": "https://player.vimeo.com/video/1115439501",
-    "video_title": "Dienstag , 03.09.2025"
-  },
-  {
-    "module_title": "Verkaufs Calls",
-    "lesson_id": "19222104",
-    "lesson_name": "Verkaufs-Call 29.09.2025",
-    "video_url": "https://player.vimeo.com/video/1122902734",
-    "video_title": "Dienstag , 29.09.2025"
   }
 ]
