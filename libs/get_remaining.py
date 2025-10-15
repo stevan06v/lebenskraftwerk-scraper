@@ -5,9 +5,9 @@ from typing import List
 
 from libs.models import Lesson
 
-FAILED_FILE = "lessons.json"
+FAILED_FILE = "../lessons.json"
 DIRECTORY_NAME = "/Volumes/Stevans-HDD/lebenskraftwerk_export"
-REMAINING_FILE = "remaining.json"
+REMAINING_FILE = "../remaining.json"
 
 
 def load_remaining_lessons() -> List[Lesson]:

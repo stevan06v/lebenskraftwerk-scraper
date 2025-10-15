@@ -18,7 +18,7 @@ def clean_vimeo_url(raw_src: str) -> str:
 
 class CourseVideosSpider(scrapy.Spider):
     name = "course_videos"
-    login_page = 'https://player.vimeo.com/video/986666602?h=8bd00c3fea&badge=0&autopause=0&player_id=0&app_id=58479'
+    login_page = 'https://go.van-gerrevink.eu/membership-access1709819901361?page_id=61563115&page_key=asyzbbxc13x64urd'
 
     async def start(self):
         yield scrapy.Request(

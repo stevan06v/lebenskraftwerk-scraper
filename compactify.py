@@ -35,7 +35,7 @@ def download_and_convert(lesson: Lesson, base_dir: str):
         )
     except Exception as e:
         print(f"Failed to download {lesson.lesson_id}: {e}")
-        time.sleep(10)
+        time.sleep(100)
         return download_and_convert(lesson, DIRECTORY_NAME)
 
     return lesson.lesson_id, out_path
@@ -83,7 +83,9 @@ if __name__ == "__main__":
         create_distinct_directories(loaded_lessons)
 
         download_lessons_parallel(loaded_lessons, max_workers=MAX_WORKERS)
-
+        '''for lesson in loaded_lessons:
+            download_and_convert(lesson, DIRECTORY_NAME)
+        '''
     except FileExistsError:
         print(f"Directory '{DIRECTORY_NAME}' already exists.")
     except PermissionError:
