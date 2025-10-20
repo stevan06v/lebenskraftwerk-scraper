@@ -1,6 +1,5 @@
 import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
+from concurrent.futures import ThreadPoolExecutor
 import whisper
 from pydub import AudioSegment
 from docx import Document
